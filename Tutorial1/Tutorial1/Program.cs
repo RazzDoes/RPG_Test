@@ -2,6 +2,9 @@
 
 namespace RPGTutorial {
     class Program {
+
+        // 10
+
         static void Main(string[] args){         
 			int heroHitPoints, monsterHitPoints, attackDamage;
 			string battleChoice;
@@ -61,7 +64,7 @@ ____________________________");
 			if(heroHitPoints > 0){
 				Console.WriteLine("You have defeated the monster");
 			} else {
-				Console.WriteLine("The monster has defated you");
+				Console.WriteLine("The monster has defeated you");
 			}
 
             Console.ReadLine();
