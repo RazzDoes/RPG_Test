@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Tutorial1 {
+namespace RPGTutorial {
     class Program {
         static void Main(string[] args){         
 			int heroHitPoints, monsterHitPoints, attackDamage;
@@ -64,7 +64,7 @@ ____________________________");
 				Console.WriteLine("The monster has defated you");
 			}
 
-			Console.ReadLine();
+            Console.ReadLine();
         }
     }
 }
